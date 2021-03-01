@@ -5,7 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="New Panel Reference Msg.lvclass" Type="LVClass" URL="../Stage Messages/New Panel Reference Msg/New Panel Reference Msg.lvclass"/>
+		<Item Name="Set Acquisition Interval Msg.lvclass" Type="LVClass" URL="../Stage Messages/Set Acquisition Interval Msg/Set Acquisition Interval Msg.lvclass"/>
+		<Item Name="SetPositionUm Msg.lvclass" Type="LVClass" URL="../Stage Messages/SetPositionUm Msg/SetPositionUm Msg.lvclass"/>
+		<Item Name="SetRelativePositionUm Msg.lvclass" Type="LVClass" URL="../Stage Messages/SetRelativePositionUm Msg/SetRelativePositionUm Msg.lvclass"/>
+		<Item Name="Start Sequence Acquisition Msg.lvclass" Type="LVClass" URL="../Stage Messages/Start Sequence Acquisition Msg/Start Sequence Acquisition Msg.lvclass"/>
 	</Item>
-	<Item Name="Stage Controller.lvlib" Type="Library" URL="../../../../Stage Controller/Stage Controller.lvlib"/>
+	<Item Name="Stage Controller.lvlib" Type="Library" URL="../../../Stage Controller/Stage Controller.lvlib"/>
 	<Item Name="Stage.lvclass" Type="LVClass" URL="../Stage/Stage.lvclass"/>
 </Library>
