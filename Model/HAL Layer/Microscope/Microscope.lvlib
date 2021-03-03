@@ -5,8 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="DebugShowDeviceList Msg.lvclass" Type="LVClass" URL="../Microscope Messages/DebugShowDeviceList Msg/DebugShowDeviceList Msg.lvclass"/>
-		<Item Name="Send Panel Refercence_Msg.lvclass" Type="LVClass" URL="../Messages/Send Panel Refercence_Msg/Send Panel Refercence_Msg.lvclass"/>
 	</Item>
-	<Item Name="Microscope Controller.lvlib" Type="Library" URL="../../../../Microscope Controller/Microscope Controller.lvlib"/>
+	<Item Name="Microscope Controller.lvlib" Type="Library" URL="../Microscope Controller/Microscope Controller.lvlib"/>
 	<Item Name="Microscope.lvclass" Type="LVClass" URL="../Microscope/Microscope.lvclass"/>
 </Library>
