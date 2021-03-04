@@ -7,7 +7,9 @@
 		<Item Name="Camera Prime95B Controller.lvlib" Type="Library" URL="../../Camera Prime95B Controller/Camera Prime95B Controller.lvlib"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="SetExposure Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/SetExposure Msg/SetExposure Msg.lvclass"/>
 		<Item Name="StartSequenceAcqusition Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/StartSequenceAcqusition Msg/StartSequenceAcqusition Msg.lvclass"/>
+		<Item Name="StopSequenceAcqusition Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/StopSequenceAcqusition Msg/StopSequenceAcqusition Msg.lvclass"/>
 	</Item>
 	<Item Name="Camera_Prime95B.lvclass" Type="LVClass" URL="../Camera_Prime95B/Camera_Prime95B.lvclass"/>
 </Library>
