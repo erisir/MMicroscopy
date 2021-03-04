@@ -92,7 +92,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TIRF-Lock.dll" Type="Document" URL="../Model/Real Hardware/DAQ_QPT_Throlab/Dependency/TIRF-Lock.dll"/>
-			<Item Name="ROI.ctl" Type="VI" URL="../../MMicroscopy/controls/ROI.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

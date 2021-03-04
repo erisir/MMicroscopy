@@ -115,13 +115,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="SetROI.vi" Type="VI" URL="../SetROI.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'J!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P&amp;5.B&lt;76S96^1=GFN:4EV1CZM&gt;GRJ9B&gt;$97VF=G&amp;@5(*J&lt;75Z.5)O&lt;(:D&lt;'&amp;T=Q!41W&amp;N:8*B8V"S;7VF/46#)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!&gt;!#A!"?!!(1!I!!8E!#U!+!!6X;72U;!!.1!I!"GBF;7&gt;I&gt;!!!,A$R!!!!!!!!!!%(5E^*,G.U&lt;!!?1&amp;!!"!!(!!A!#1!+#V.F&gt;(2J&lt;G=O5E^*!%R!=!!?!!!P&amp;5.B&lt;76S96^1=GFN:4EV1CZM&gt;GRJ9B&gt;$97VF=G&amp;@5(*J&lt;75Z.5)O&lt;(:D&lt;'&amp;T=Q!31W&amp;N:8*B8V"S;7VF/46#)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!M!$!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!+!!!!EA!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'6!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P&amp;5.B&lt;76S96^1=GFN:4EV1CZM&gt;GRJ9B&gt;$97VF=G&amp;@5(*J&lt;75Z.5)O&lt;(:D&lt;'&amp;T=Q!41W&amp;N:8*B8V"S;7VF/46#)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!&gt;!#A!"?!!(1!I!!8E!#U!+!!6X;72U;!!.1!I!"GBF;7&gt;I&gt;!!!'E"1!!1!"Q!)!!E!#AN4:82U;7ZH,F*031"-1(!!(A!!,R6$97VF=G&amp;@5(*J&lt;75Z.5)O&lt;(:M;7)81W&amp;N:8*B8V"S;7VF/46#,GRW9WRB=X-!%E.B&lt;76S96^1=GFN:4EV1C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!,!!Q$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#A!!!*)!!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="SetBinning.vi" Type="VI" URL="../SetBinning.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!',!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P&amp;5.B&lt;76S96^1=GFN:4EV1CZM&gt;GRJ9B&gt;$97VF=G&amp;@5(*J&lt;75Z.5)O&lt;(:D&lt;'&amp;T=Q!41W&amp;N:8*B8V"S;7VF/46#)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"N!!Q!55W6U&gt;'FO:SZ#;7ZO;7ZH,E*J&lt;FE!!"N!!Q!55W6U&gt;'FO:SZ#;7ZO;7ZH,E*J&lt;FA!!%R!=!!?!!!P&amp;5.B&lt;76S96^1=GFN:4EV1CZM&gt;GRJ9B&gt;$97VF=G&amp;@5(*J&lt;75Z.5)O&lt;(:D&lt;'&amp;T=Q!31W&amp;N:8*B8V"S;7VF/46#)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!I!!!!+!!!!EA!!!!!"!!I!!!!!</Property>
