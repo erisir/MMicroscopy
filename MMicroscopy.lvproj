@@ -93,6 +93,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TIRF-Lock.dll" Type="Document" URL="../Model/Real Hardware/DAQ_QPT_Throlab/Dependency/TIRF-Lock.dll"/>
+			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../../MMicroscopy/HardwareAdapter/Lasers/Dependencies/Oxxius_Boxx.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
