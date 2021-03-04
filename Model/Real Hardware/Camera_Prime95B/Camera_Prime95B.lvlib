@@ -7,7 +7,10 @@
 		<Item Name="Camera Prime95B Controller.lvlib" Type="Library" URL="../../Camera Prime95B Controller/Camera Prime95B Controller.lvlib"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="ClearROI Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/ClearROI Msg/ClearROI Msg.lvclass"/>
+		<Item Name="On Acquisition Stop Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/On Acquisition Stop Msg/On Acquisition Stop Msg.lvclass"/>
 		<Item Name="SetExposure Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/SetExposure Msg/SetExposure Msg.lvclass"/>
+		<Item Name="SetROI Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/SetROI Msg/SetROI Msg.lvclass"/>
 		<Item Name="StartSequenceAcqusition Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/StartSequenceAcqusition Msg/StartSequenceAcqusition Msg.lvclass"/>
 		<Item Name="StopSequenceAcqusition Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/StopSequenceAcqusition Msg/StopSequenceAcqusition Msg.lvclass"/>
 	</Item>
