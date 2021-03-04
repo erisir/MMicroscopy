@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Application" Type="Folder">
 			<Item Name="Launcher.vi" Type="VI" URL="../Model/HAL Layer/Microscope/Microscope/Launcher.vi"/>
+			<Item Name="Set Enable State On Multtple Controls.vi" Type="VI" URL="../Application/Set Enable State On Multtple Controls.vi"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="Interfaces" Type="Folder">

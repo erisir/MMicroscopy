@@ -7,6 +7,7 @@
 		<Item Name="Laser Oxxius Controller.lvlib" Type="Library" URL="../../Laser Oxxius Controller/Laser Oxxius Controller.lvlib"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="GetPower Msg.lvclass" Type="LVClass" URL="../Laser_Oxxius Messages/GetPower Msg/GetPower Msg.lvclass"/>
 		<Item Name="SetAutoShutter Msg.lvclass" Type="LVClass" URL="../Laser_Oxxius Messages/SetAutoShutter Msg/SetAutoShutter Msg.lvclass"/>
 		<Item Name="SetPower Msg.lvclass" Type="LVClass" URL="../Laser_Oxxius Messages/SetPower Msg/SetPower Msg.lvclass"/>
 		<Item Name="SetShutterStatus Msg.lvclass" Type="LVClass" URL="../Laser_Oxxius Messages/SetShutterStatus Msg/SetShutterStatus Msg.lvclass"/>
