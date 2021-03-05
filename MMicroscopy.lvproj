@@ -56,6 +56,8 @@
 			<Item Name="UI.vi" Type="VI" URL="../UnitTest/UI.vi"/>
 			<Item Name="Unit_Test.vi" Type="VI" URL="../UnitTest/Unit_Test.vi"/>
 		</Item>
+		<Item Name="Wait For Stop Status.ctl" Type="VI" URL="../Model/Real Hardware/Laser Oxxius Controller/Wait For Stop Status.ctl"/>
+		<Item Name="Camera Status.ctl" Type="VI" URL="../Model/Real Hardware/Laser Oxxius Controller/Camera Status.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
