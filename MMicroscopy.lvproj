@@ -56,8 +56,6 @@
 			<Item Name="UI.vi" Type="VI" URL="../UnitTest/UI.vi"/>
 			<Item Name="Unit_Test.vi" Type="VI" URL="../UnitTest/Unit_Test.vi"/>
 		</Item>
-		<Item Name="Wait For Stop Status.ctl" Type="VI" URL="../Model/Real Hardware/Laser Oxxius Controller/Wait For Stop Status.ctl"/>
-		<Item Name="Camera Status.ctl" Type="VI" URL="../Model/Real Hardware/Laser Oxxius Controller/Camera Status.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -74,6 +72,9 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -96,7 +97,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TIRF-Lock.dll" Type="Document" URL="../Model/Real Hardware/DAQ_QPT_Throlab/Dependency/TIRF-Lock.dll"/>
-			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../../MMicroscopy/HardwareAdapter/Lasers/Dependencies/Oxxius_Boxx.dll"/>
+			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../Model/Real Hardware/Laser_Oxxius/Laser_Oxxius/Dependency/Oxxius_Boxx.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -10,6 +10,8 @@
 		<Item Name="ClearROI Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/ClearROI Msg/ClearROI Msg.lvclass"/>
 		<Item Name="On Acquisition Stop Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/On Acquisition Stop Msg/On Acquisition Stop Msg.lvclass"/>
 		<Item Name="On New Frame Arrival Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/On New Frame Arrival Msg/On New Frame Arrival Msg.lvclass"/>
+		<Item Name="PreSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/PreSequenceAcquisition Msg/PreSequenceAcquisition Msg.lvclass"/>
+		<Item Name="SetBinning Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/SetBinning Msg/SetBinning Msg.lvclass"/>
 		<Item Name="SetExposure Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/SetExposure Msg/SetExposure Msg.lvclass"/>
 		<Item Name="SetROI Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/SetROI Msg/SetROI Msg.lvclass"/>
 		<Item Name="StartSequenceAcqusition Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/StartSequenceAcqusition Msg/StartSequenceAcqusition Msg.lvclass"/>
