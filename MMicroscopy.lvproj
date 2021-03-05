@@ -27,7 +27,6 @@
 					<Item Name="Send Panel Refercence Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/Send Panel Refercence Msg/Send Panel Refercence Msg.lvclass"/>
 				</Item>
 				<Item Name="Communication.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication/Communication.lvclass"/>
-				<Item Name="ImageListener.lvclass" Type="LVClass" URL="../ImageListener/ImageListener.lvclass"/>
 			</Item>
 			<Item Name="HAL Layer" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -35,7 +34,6 @@
 				<Item Name="Camera.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Camera/Camera.lvlib"/>
 				<Item Name="DAQ.lvlib" Type="Library" URL="../Model/HAL Layer/Component/DAQ/DAQ.lvlib"/>
 				<Item Name="Laser.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Laser/Laser.lvlib"/>
-				<Item Name="Shutter.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Shutter/Shutter.lvlib"/>
 				<Item Name="Stage.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Stage/Stage.lvlib"/>
 				<Item Name="Microscope.lvlib" Type="Library" URL="../Model/HAL Layer/Microscope/Microscope.lvlib"/>
 			</Item>
@@ -45,7 +43,6 @@
 					<Item Name="Camera_Prime95B.lvlib" Type="Library" URL="../Model/Real Hardware/Camera_Prime95B/Camera_Prime95B.lvlib"/>
 					<Item Name="DAQ_QPT_Throlab.lvlib" Type="Library" URL="../Model/Real Hardware/DAQ_QPT_Throlab/DAQ_QPT_Throlab.lvlib"/>
 					<Item Name="Laser_Oxxius.lvlib" Type="Library" URL="../Model/Real Hardware/Laser_Oxxius/Laser_Oxxius.lvlib"/>
-					<Item Name="Shutter_Oxxius.lvlib" Type="Library" URL="../Model/Real Hardware/Shutter_Oxxius/Shutter_Oxxius.lvlib"/>
 					<Item Name="Stage_MadCityLab.lvlib" Type="Library" URL="../Model/Real Hardware/Stage_MadCityLab/Stage_MadCityLab.lvlib"/>
 					<Item Name="Stage_MadCityLabMicro.lvlib" Type="Library" URL="../Model/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro.lvlib"/>
 					<Item Name="Microscope_RM21.lvlib" Type="Library" URL="../Model/Real Hardware/Microscope_RM21/Microscope_RM21.lvlib"/>
@@ -57,8 +54,8 @@
 					<Item Name="DataCollector.lvlib" Type="Library" URL="../Model/Logic Layer/DataCollector/DataCollector.lvlib"/>
 					<Item Name="Image Processor.lvlib" Type="Library" URL="../Model/Logic Layer/Image Processor/Image Processor.lvlib"/>
 				</Item>
-				<Item Name="ImagePipeline.lvlib" Type="Library" URL="../ImagePipeline/ImagePipeline.lvlib"/>
-				<Item Name="SingleParticleTracking.lvlib" Type="Library" URL="../SingleParticleTracking/SingleParticleTracking.lvlib"/>
+				<Item Name="ImagePipeline.lvlib" Type="Library" URL="../Model/Logic Layer/ImagePipeline/ImagePipeline.lvlib"/>
+				<Item Name="SingleParticleTracking.lvlib" Type="Library" URL="../Model/Logic Layer/SingleParticleTracking/SingleParticleTracking.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="UnitTest" Type="Folder">
