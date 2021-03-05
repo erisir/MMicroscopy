@@ -7,6 +7,7 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="StopSequenceAcqusition Msg.lvclass" Type="LVClass" URL="../Camera Messages/StopSequenceAcqusition Msg/StopSequenceAcqusition Msg.lvclass"/>
 		<Item Name="StartSequenceAcqusition Msg.lvclass" Type="LVClass" URL="../Camera Messages/StartSequenceAcqusition Msg/StartSequenceAcqusition Msg.lvclass"/>
+		<Item Name="GetImageBuffer Msg.lvclass" Type="LVClass" URL="../Camera Messages/GetImageBuffer Msg/GetImageBuffer Msg.lvclass"/>
 	</Item>
 	<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
 </Library>

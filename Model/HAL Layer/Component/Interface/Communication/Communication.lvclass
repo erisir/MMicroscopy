@@ -15,6 +15,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="SetPiplelineImageBuffer.vi" Type="VI" URL="../SetPiplelineImageBuffer.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'Q!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5.P&lt;7VV&lt;GFD982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!21W^N&lt;86O;7.B&gt;'FP&lt;C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!A!$@`````!!5A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!&amp;=!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!%"!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!=*35V"55FN97&gt;F)!#!!!!!!!%!"!!!!!%!!!!!!!!*4G6X)%FN97&gt;F!"B!=!!3!!%!#!R*&lt;7&amp;H:5*V:G:F=H-!!$*!=!!?!!!8&amp;5.P&lt;7VV&lt;GFD982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!11W^N&lt;86O;7.B&gt;'FP&lt;C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!*!!I#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!,!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
 	<Item Name="SetStagePosition.vi" Type="VI" URL="../SetStagePosition.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!$!!S1(!!(A!!&amp;R6$&lt;WVN&gt;7ZJ9W&amp;U;7^O,GRW9WRB=X-!%%.P&lt;7VV&lt;GFD982J&lt;WYA;7Y!!!1!!!!S1(!!(A!!&amp;R6$&lt;WVN&gt;7ZJ9W&amp;U;7^O,GRW9WRB=X-!%5.P&lt;7VV&lt;GFD982J&lt;WYA&lt;X6U!!Z!-0````]&amp;4'&amp;C:7Q!%E!B$%&amp;C=V"P=WFU;7^O0Q!!#U!+!!6797RV:1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!'!!=!#".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!9!"Q!)#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!Q!"!!1!!1!&amp;!!%!#1!"!!%!!1!+!A!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!))!!!!!!!!!!A!!!!!!!!!#!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!M!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

@@ -19,11 +19,15 @@
 		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="Interfaces" Type="Folder">
+				<Item Name="Msg For Cmomunication" Type="Folder">
+					<Item Name="StartSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/StartSequenceAcquisition Msg/StartSequenceAcquisition Msg.lvclass"/>
+					<Item Name="StopSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/StopSequenceAcquisition Msg/StopSequenceAcquisition Msg.lvclass"/>
+					<Item Name="SetPiplelineImageBuffer Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/SetPiplelineImageBuffer Msg/SetPiplelineImageBuffer Msg.lvclass"/>
+					<Item Name="SetStagePosition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/SetStagePosition Msg/SetStagePosition Msg.lvclass"/>
+					<Item Name="Send Panel Refercence Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/Send Panel Refercence Msg/Send Panel Refercence Msg.lvclass"/>
+				</Item>
 				<Item Name="Communication.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication/Communication.lvclass"/>
-				<Item Name="Send Panel Refercence Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/Send Panel Refercence Msg/Send Panel Refercence Msg.lvclass"/>
-				<Item Name="SetStagePosition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/SetStagePosition Msg/SetStagePosition Msg.lvclass"/>
-				<Item Name="StartSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/StartSequenceAcquisition Msg/StartSequenceAcquisition Msg.lvclass"/>
-				<Item Name="StopSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/StopSequenceAcquisition Msg/StopSequenceAcquisition Msg.lvclass"/>
+				<Item Name="ImageListener.lvclass" Type="LVClass" URL="../ImageListener/ImageListener.lvclass"/>
 			</Item>
 			<Item Name="HAL Layer" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
