@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder"/>
-	<Item Name="ImagingMode.lvclass" Type="LVClass" URL="../ImagingMode/ImagingMode.lvclass"/>
+	<Item Name="Image Processor.lvclass" Type="LVClass" URL="../Image Processor/Image Processor.lvclass"/>
 </Library>

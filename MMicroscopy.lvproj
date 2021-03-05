@@ -13,6 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Application" Type="Folder">
 			<Item Name="Launcher.vi" Type="VI" URL="../Model/HAL Layer/Microscope/Microscope/Launcher.vi"/>
+		</Item>
+		<Item Name="Common" Type="Folder">
 			<Item Name="Set Enable State On Multtple Controls.vi" Type="VI" URL="../Application/Set Enable State On Multtple Controls.vi"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
@@ -20,17 +22,17 @@
 				<Item Name="Communication.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication/Communication.lvclass"/>
 				<Item Name="Send Panel Refercence Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/Send Panel Refercence Msg/Send Panel Refercence Msg.lvclass"/>
 				<Item Name="SetStagePosition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/SetStagePosition Msg/SetStagePosition Msg.lvclass"/>
+				<Item Name="StartSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/StartSequenceAcquisition Msg/StartSequenceAcquisition Msg.lvclass"/>
+				<Item Name="StopSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Model/HAL Layer/Component/Interface/Communication Messages/StopSequenceAcquisition Msg/StopSequenceAcquisition Msg.lvclass"/>
 			</Item>
 			<Item Name="HAL Layer" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="ControllerView" Type="Folder"/>
 				<Item Name="Device.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Device/Device.lvlib"/>
 				<Item Name="Camera.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Camera/Camera.lvlib"/>
 				<Item Name="DAQ.lvlib" Type="Library" URL="../Model/HAL Layer/Component/DAQ/DAQ.lvlib"/>
 				<Item Name="Laser.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Laser/Laser.lvlib"/>
 				<Item Name="Shutter.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Shutter/Shutter.lvlib"/>
 				<Item Name="Stage.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Stage/Stage.lvlib"/>
-				<Item Name="Trigger.lvlib" Type="Library" URL="../Model/HAL Layer/Component/Trigger/Trigger.lvlib"/>
 				<Item Name="Microscope.lvlib" Type="Library" URL="../Model/HAL Layer/Microscope/Microscope.lvlib"/>
 			</Item>
 			<Item Name="Hardware Layer" Type="Folder">
@@ -47,13 +49,15 @@
 				<Item Name="Simulated Hardware" Type="Folder"/>
 			</Item>
 			<Item Name="Logic Layer" Type="Folder">
-				<Item Name="Analyser.lvlib" Type="Library" URL="../Model/Processor/Analyser/Analyser.lvlib"/>
-				<Item Name="DataCollector.lvlib" Type="Library" URL="../Model/Processor/DataCollector/DataCollector.lvlib"/>
-				<Item Name="ImagingMode.lvlib" Type="Library" URL="../Model/Processor/ImagingMode/ImagingMode.lvlib"/>
+				<Item Name="Image Processor" Type="Folder">
+					<Item Name="DataCollector.lvlib" Type="Library" URL="../Model/Logic Layer/DataCollector/DataCollector.lvlib"/>
+					<Item Name="Image Processor.lvlib" Type="Library" URL="../Model/Logic Layer/Image Processor/Image Processor.lvlib"/>
+				</Item>
+				<Item Name="ImagePipeline.lvlib" Type="Library" URL="../ImagePipeline/ImagePipeline.lvlib"/>
+				<Item Name="SingleParticleTracking.lvlib" Type="Library" URL="../SingleParticleTracking/SingleParticleTracking.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="UnitTest" Type="Folder">
-			<Item Name="UI.vi" Type="VI" URL="../UnitTest/UI.vi"/>
 			<Item Name="Unit_Test.vi" Type="VI" URL="../UnitTest/Unit_Test.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
