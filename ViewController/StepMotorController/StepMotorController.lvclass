@@ -22,7 +22,7 @@
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="Actor Framework.lvlib:Actor.lvclass" Type="Parent" URL="/&lt;vilib&gt;/ActorFramework/Actor/Actor.lvclass"/>
-		<Item Name="DataListener.lvclass" Type="Parent" URL="../../../Interface/DataListenerIO/DataListener.lvclass"/>
+		<Item Name="DataListener.lvclass" Type="Parent" URL="../../../Interface/DataListener/DataListener.lvclass"/>
 	</Item>
 	<Item Name="StepMotorController.ctl" Type="Class Private Data" URL="StepMotorController.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

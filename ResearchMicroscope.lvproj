@@ -14,6 +14,7 @@
 		<Item Name="Document" Type="Folder"/>
 		<Item Name="Application" Type="Folder">
 			<Item Name="Launcher.vi" Type="VI" URL="../Application/Launcher.vi"/>
+			<Item Name="LoadApp.vi" Type="VI" URL="../Application/LoadApp.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Set Enable State On Multtple Controls.vi" Type="VI" URL="../Support/Set Enable State On Multtple Controls.vi"/>
@@ -23,20 +24,22 @@
 				<Item Name="Messages for DataListener" Type="Folder">
 					<Item Name="OnDataChange Msg.lvclass" Type="LVClass" URL="../Interface/DataListener Messages/OnDataChange Msg/OnDataChange Msg.lvclass"/>
 				</Item>
-				<Item Name="Messages for MicroscopeIO" Type="Folder">
-					<Item Name="InsertDevicePanel Msg.lvclass" Type="LVClass" URL="../Interface/MicroscopeIO Messages/InsertDevicePanel Msg/InsertDevicePanel Msg.lvclass"/>
-					<Item Name="SetPiplelineImageBuffer Msg.lvclass" Type="LVClass" URL="../Interface/MicroscopeIO Messages/SetPiplelineImageBuffer Msg/SetPiplelineImageBuffer Msg.lvclass"/>
-					<Item Name="SetStagePosition Msg.lvclass" Type="LVClass" URL="../Interface/MicroscopeIO Messages/SetStagePosition Msg/SetStagePosition Msg.lvclass"/>
-					<Item Name="StartImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/MicroscopeIO Messages/StartImageAcquisition Msg/StartImageAcquisition Msg.lvclass"/>
-					<Item Name="StopImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/MicroscopeIO Messages/StopImageAcquisition Msg/StopImageAcquisition Msg.lvclass"/>
+				<Item Name="Messages for DeviceDock" Type="Folder">
+					<Item Name="InsertDevicePanel Msg.lvclass" Type="LVClass" URL="../Interface/DeviceDock Messages/InsertDevicePanel Msg/InsertDevicePanel Msg.lvclass"/>
+					<Item Name="SetPiplelineImageBuffer Msg.lvclass" Type="LVClass" URL="../Interface/DeviceDock Messages/SetPiplelineImageBuffer Msg/SetPiplelineImageBuffer Msg.lvclass"/>
+					<Item Name="StartImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/DeviceDock Messages/StartImageAcquisition Msg/StartImageAcquisition Msg.lvclass"/>
+					<Item Name="StopImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/DeviceDock Messages/StopImageAcquisition Msg/StopImageAcquisition Msg.lvclass"/>
 				</Item>
-				<Item Name="Messages for MicroscopeControllerIO" Type="Folder">
-					<Item Name="InsertPanelToMainframe Msg.lvclass" Type="LVClass" URL="../Interface/MicroscopeControllerIO Messages/InsertPanelToMainframe Msg/InsertPanelToMainframe Msg.lvclass"/>
+				<Item Name="Messages for ErrorHandler" Type="Folder">
+					<Item Name="ParseError Msg.lvclass" Type="LVClass" URL="../Interface/ErrorHandler Messages/ParseError Msg/ParseError Msg.lvclass"/>
 				</Item>
-				<Item Name="MicroscopeIO.lvclass" Type="LVClass" URL="../Interface/MicroscopeIO/MicroscopeIO.lvclass"/>
-				<Item Name="DataListener.lvclass" Type="LVClass" URL="../Interface/DataListenerIO/DataListener.lvclass"/>
-				<Item Name="MicroscopeControllerIO.lvclass" Type="LVClass" URL="../Interface/MicroscopeControllerIO/MicroscopeControllerIO.lvclass"/>
-				<Item Name="StageControl.lvclass" Type="LVClass" URL="../Interface/StageControlIO/StageControl.lvclass"/>
+				<Item Name="Messages for StageController" Type="Folder">
+					<Item Name="SetStagePosition Msg.lvclass" Type="LVClass" URL="../Interface/StageController Messages/SetStagePosition Msg/SetStagePosition Msg.lvclass"/>
+				</Item>
+				<Item Name="DeviceDock.lvclass" Type="LVClass" URL="../Interface/DeviceDock/DeviceDock.lvclass"/>
+				<Item Name="DataListener.lvclass" Type="LVClass" URL="../Interface/DataListener/DataListener.lvclass"/>
+				<Item Name="StageController.lvclass" Type="LVClass" URL="../Interface/StageControl/StageController.lvclass"/>
+				<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Interface/ErrorHandler/ErrorHandler.lvclass"/>
 			</Item>
 			<Item Name="Hardware Abstraction Layer" Type="Folder">
 				<Item Name="Component" Type="Folder">
@@ -59,15 +62,14 @@
 					<Item Name="DAQ_QPT_Throlab.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/DAQ_QPT_Throlab/DAQ_QPT_Throlab.lvlib"/>
 					<Item Name="Laser_Oxxius.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Laser_Oxxius/Laser_Oxxius.lvlib"/>
 					<Item Name="Microscope_RM21.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Microscope_RM21/Microscope_RM21.lvlib"/>
-					<Item Name="Stage_MadCityLabMicro.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro.lvlib"/>
 					<Item Name="Stage_MadCityLab.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLab/Stage_MadCityLab.lvlib"/>
+					<Item Name="Stage_MadCityLabMicro.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro.lvlib"/>
 				</Item>
 			</Item>
 		</Item>
 		<Item Name="ViewController" Type="Folder">
 			<Item Name="Controller Template.lvlib" Type="Library" URL="/C/Program Files/National Instruments/LabVIEW 2020/project/Create Actor from Template/_Controller Template/Controller Template.lvlib"/>
 			<Item Name="Microscope Controller.lvlib" Type="Library" URL="../ViewController/Microscope Controller/Microscope Controller.lvlib"/>
-			<Item Name="DemoCameraController.lvlib" Type="Library" URL="../ViewController/DemoCameraController/DemoCameraController.lvlib"/>
 			<Item Name="Prime95BCameraController.lvlib" Type="Library" URL="../ViewController/Prime95BCameraController/Prime95BCameraController.lvlib"/>
 			<Item Name="TripleAxisStageController.lvlib" Type="Library" URL="../ViewController/TripleAxisStageController/TripleAxisStageController.lvlib"/>
 			<Item Name="StepMotorController.lvlib" Type="Library" URL="../ViewController/StepMotorController/StepMotorController.lvlib"/>
@@ -101,6 +103,40 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="IMAQ Write Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Write Custom Data"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">

@@ -4,8 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="MouseWheelMoveStage Msg.lvclass" Type="LVClass" URL="../DemoCamera Messages/MouseWheelMoveStage Msg/MouseWheelMoveStage Msg.lvclass"/>
-	</Item>
+	<Item Name="Messages for this Actor" Type="Folder"/>
 	<Item Name="DemoCamera.lvclass" Type="LVClass" URL="../DemoCamera/DemoCamera.lvclass"/>
 </Library>

@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="MouseWheelMoveStage Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/MouseWheelMoveStage Msg/MouseWheelMoveStage Msg.lvclass"/>
 		<Item Name="On Acquisition Stop Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/On Acquisition Stop Msg/On Acquisition Stop Msg.lvclass"/>
 		<Item Name="On New Frame Arrival Msg.lvclass" Type="LVClass" URL="../Camera_Prime95B Messages/On New Frame Arrival Msg/On New Frame Arrival Msg.lvclass"/>
 	</Item>
