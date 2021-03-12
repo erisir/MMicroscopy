@@ -9,6 +9,8 @@
 		<Item Name="SetROI Msg.lvclass" Type="LVClass" URL="../Camera Messages/SetROI Msg/SetROI Msg.lvclass"/>
 		<Item Name="SetBinning Msg.lvclass" Type="LVClass" URL="../Camera Messages/SetBinning Msg/SetBinning Msg.lvclass"/>
 		<Item Name="ClearROI Msg.lvclass" Type="LVClass" URL="../Camera Messages/ClearROI Msg/ClearROI Msg.lvclass"/>
+		<Item Name="SetFrameToCaptureNumber Msg.lvclass" Type="LVClass" URL="../Camera Messages/SetFrameToCaptureNumber Msg/SetFrameToCaptureNumber Msg.lvclass"/>
+		<Item Name="SetInterval Msg.lvclass" Type="LVClass" URL="../Camera Messages/SetInterval Msg/SetInterval Msg.lvclass"/>
 	</Item>
 	<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
 </Library>
