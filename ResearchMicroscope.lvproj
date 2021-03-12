@@ -69,8 +69,8 @@
 		</Item>
 		<Item Name="ViewController" Type="Folder">
 			<Item Name="Controller Template.lvlib" Type="Library" URL="../ViewController/_Controller Template/Controller Template.lvlib"/>
-			<Item Name="Microscope Controller.lvlib" Type="Library" URL="../ViewController/Microscope Controller/Microscope Controller.lvlib"/>
-			<Item Name="Prime95BCameraController.lvlib" Type="Library" URL="../ViewController/Prime95BCameraController/Prime95BCameraController.lvlib"/>
+			<Item Name="MicroscopeController.lvlib" Type="Library" URL="../ViewController/Microscope Controller/MicroscopeController.lvlib"/>
+			<Item Name="CameraController.lvlib" Type="Library" URL="../ViewController/Prime95BCameraController/CameraController.lvlib"/>
 			<Item Name="TripleAxisStageController.lvlib" Type="Library" URL="../ViewController/TripleAxisStageController/TripleAxisStageController.lvlib"/>
 			<Item Name="StepMotorController.lvlib" Type="Library" URL="../ViewController/StepMotorController/StepMotorController.lvlib"/>
 			<Item Name="QPDController.lvlib" Type="Library" URL="../ViewController/QPDController/QPDController.lvlib"/>
@@ -137,6 +137,7 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="LVRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRangeTypeDef.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -198,7 +199,7 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RM21</Property>
 				<Property Name="TgtF_internalName" Type="Str">RM21</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ? 2021 </Property>
 				<Property Name="TgtF_productName" Type="Str">RM21</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{04896716-D0B1-4C09-95E4-1223A10F3276}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">RM21.exe</Property>
