@@ -66,6 +66,7 @@
 					<Item Name="Stage_MadCityLabMicro.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro.lvlib"/>
 				</Item>
 			</Item>
+			<Item Name="Logic Layer" Type="Folder"/>
 		</Item>
 		<Item Name="ViewController" Type="Folder">
 			<Item Name="Controller Template.lvlib" Type="Library" URL="../ViewController/_Controller Template/Controller Template.lvlib"/>
