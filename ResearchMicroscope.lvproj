@@ -24,11 +24,11 @@
 				<Item Name="Messages for DataListener" Type="Folder">
 					<Item Name="OnDataChange Msg.lvclass" Type="LVClass" URL="../Interface/DataListener Messages/OnDataChange Msg/OnDataChange Msg.lvclass"/>
 				</Item>
-				<Item Name="Messages for DeviceDock" Type="Folder">
-					<Item Name="InsertDevicePanel Msg.lvclass" Type="LVClass" URL="../Interface/DeviceDock Messages/InsertDevicePanel Msg/InsertDevicePanel Msg.lvclass"/>
-					<Item Name="SetPiplelineImageBuffer Msg.lvclass" Type="LVClass" URL="../Interface/DeviceDock Messages/SetPiplelineImageBuffer Msg/SetPiplelineImageBuffer Msg.lvclass"/>
-					<Item Name="StartImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/DeviceDock Messages/StartImageAcquisition Msg/StartImageAcquisition Msg.lvclass"/>
-					<Item Name="StopImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/DeviceDock Messages/StopImageAcquisition Msg/StopImageAcquisition Msg.lvclass"/>
+				<Item Name="Messages for DockStation" Type="Folder">
+					<Item Name="InsertDevicePanel Msg.lvclass" Type="LVClass" URL="../Interface/DockStation Messages/InsertDevicePanel Msg/InsertDevicePanel Msg.lvclass"/>
+					<Item Name="SetPiplelineImageBuffer Msg.lvclass" Type="LVClass" URL="../Interface/DockStation Messages/SetPiplelineImageBuffer Msg/SetPiplelineImageBuffer Msg.lvclass"/>
+					<Item Name="StartImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/DockStation Messages/StartImageAcquisition Msg/StartImageAcquisition Msg.lvclass"/>
+					<Item Name="StopImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/DockStation Messages/StopImageAcquisition Msg/StopImageAcquisition Msg.lvclass"/>
 				</Item>
 				<Item Name="Messages for ErrorHandler" Type="Folder">
 					<Item Name="ParseError Msg.lvclass" Type="LVClass" URL="../Interface/ErrorHandler Messages/ParseError Msg/ParseError Msg.lvclass"/>
@@ -36,10 +36,18 @@
 				<Item Name="Messages for StageController" Type="Folder">
 					<Item Name="SetStagePosition Msg.lvclass" Type="LVClass" URL="../Interface/StageController Messages/SetStagePosition Msg/SetStagePosition Msg.lvclass"/>
 				</Item>
-				<Item Name="DeviceDock.lvclass" Type="LVClass" URL="../Interface/DeviceDock/DeviceDock.lvclass"/>
+				<Item Name="Messages for DockingDevice" Type="Folder">
+					<Item Name="PostUserInterfaceRefnum Msg.lvclass" Type="LVClass" URL="../Interface/DockingDevice Messages/PostUserInterfaceRefnum Msg/PostUserInterfaceRefnum Msg.lvclass"/>
+				</Item>
+				<Item Name="Messages for DataGenerator" Type="Folder">
+					<Item Name="AddDataListener Msg.lvclass" Type="LVClass" URL="../Interface/DataGenerator Messages/AddDataListener Msg/AddDataListener Msg.lvclass"/>
+				</Item>
+				<Item Name="DockStation.lvclass" Type="LVClass" URL="../Interface/DockStation/DockStation.lvclass"/>
 				<Item Name="DataListener.lvclass" Type="LVClass" URL="../Interface/DataListener/DataListener.lvclass"/>
-				<Item Name="StageController.lvclass" Type="LVClass" URL="../Interface/StageControl/StageController.lvclass"/>
+				<Item Name="StageController.lvclass" Type="LVClass" URL="../Interface/StageController/StageController.lvclass"/>
 				<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Interface/ErrorHandler/ErrorHandler.lvclass"/>
+				<Item Name="DockingDevice.lvclass" Type="LVClass" URL="../Interface/DockingDevice/DockingDevice.lvclass"/>
+				<Item Name="DataGenerator.lvclass" Type="LVClass" URL="../Interface/DataGenerator/DataGenerator.lvclass"/>
 			</Item>
 			<Item Name="Hardware Abstraction Layer" Type="Folder">
 				<Item Name="Component" Type="Folder">
@@ -70,9 +78,9 @@
 				</Item>
 			</Item>
 			<Item Name="Logic Layer" Type="Folder">
-				<Item Name="Analyser.lvlib" Type="Library" URL="../Analyser/Analyser.lvlib"/>
 				<Item Name="QuickNote.lvlib" Type="Library" URL="../Model/Logic Layer/QuickNote/QuickNote.lvlib"/>
 				<Item Name="DataLogger.lvlib" Type="Library" URL="../Model/Logic Layer/DataLogger/DataLogger.lvlib"/>
+				<Item Name="DataProcessor.lvlib" Type="Library" URL="../Model/Logic Layer/DataProcessor/DataProcessor.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="ViewController" Type="Folder">
@@ -169,7 +177,6 @@
 			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Laser_Oxxius/Laser_Oxxius/Dependency/Oxxius_Boxx.dll"/>
 			<Item Name="Madlib.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLab/Stage_MadCityLab/Dependency/Madlib.dll"/>
 			<Item Name="MicroDrive.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro/Dependency/MicroDrive.dll"/>
-			<Item Name="QuickNote.lvclass" Type="LVClass" URL="../QuickNote/QuickNote/QuickNote.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RM21" Type="EXE">

@@ -22,7 +22,7 @@
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.1</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="Camera.lvlib:Camera.lvclass" Type="Parent" URL="../../../../../Hardware Abstraction Layer/Component/Camera/Camera/Camera.lvclass"/>
-		<Item Name="StageController.lvclass" Type="Parent" URL="../../../../../../Interface/StageControl/StageController.lvclass"/>
+		<Item Name="StageController.lvclass" Type="Parent" URL="../../../../../../Interface/StageController/StageController.lvclass"/>
 	</Item>
 	<Item Name="DemoCamera.ctl" Type="Class Private Data" URL="DemoCamera.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

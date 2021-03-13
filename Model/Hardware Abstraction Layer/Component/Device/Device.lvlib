@@ -5,7 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Post VI Refnum Msg.lvclass" Type="LVClass" URL="../Device Messages/Post VI Refnum Msg/Post VI Refnum Msg.lvclass"/>
 		<Item Name="StartSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Device Messages/StartSequenceAcquisition Msg/StartSequenceAcquisition Msg.lvclass"/>
 		<Item Name="StopAcquisition Msg.lvclass" Type="LVClass" URL="../Device Messages/StopAcquisition Msg/StopAcquisition Msg.lvclass"/>
 		<Item Name="SetSamplingRate Msg.lvclass" Type="LVClass" URL="../Device Messages/SetSamplingRate Msg/SetSamplingRate Msg.lvclass"/>
