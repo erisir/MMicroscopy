@@ -53,6 +53,9 @@
 			</Item>
 			<Item Name="Hardware Layer" Type="Folder">
 				<Item Name="Demo" Type="Folder">
+					<Item Name="DemoStepMotor.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoStepMotor/DemoStepMotor.lvlib"/>
+					<Item Name="DemoLasers.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoLasers/DemoLasers.lvlib"/>
+					<Item Name="DemoDAQ.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoDAQ/DemoDAQ.lvlib"/>
 					<Item Name="DemoCamera.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoCamera/DemoCamera.lvlib"/>
 					<Item Name="DemoStage.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoStage/DemoStage.lvlib"/>
 					<Item Name="DemoMicrosope.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoMicrosope/DemoMicrosope.lvlib"/>
@@ -66,13 +69,17 @@
 					<Item Name="Stage_MadCityLabMicro.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro.lvlib"/>
 				</Item>
 			</Item>
-			<Item Name="Logic Layer" Type="Folder"/>
+			<Item Name="Logic Layer" Type="Folder">
+				<Item Name="Analyser.lvlib" Type="Library" URL="../Analyser/Analyser.lvlib"/>
+				<Item Name="QuickNote.lvlib" Type="Library" URL="../Model/Logic Layer/QuickNote/QuickNote.lvlib"/>
+				<Item Name="DataLogger.lvlib" Type="Library" URL="../Model/Logic Layer/DataLogger/DataLogger.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="ViewController" Type="Folder">
 			<Item Name="Controller Template.lvlib" Type="Library" URL="../ViewController/_Controller Template/Controller Template.lvlib"/>
 			<Item Name="MicroscopeController.lvlib" Type="Library" URL="../ViewController/Microscope Controller/MicroscopeController.lvlib"/>
 			<Item Name="CameraController.lvlib" Type="Library" URL="../ViewController/Prime95BCameraController/CameraController.lvlib"/>
-			<Item Name="TripleAxisStageController.lvlib" Type="Library" URL="../ViewController/TripleAxisStageController/TripleAxisStageController.lvlib"/>
+			<Item Name="TriaxesStageController.lvlib" Type="Library" URL="../ViewController/TripleAxisStageController/TriaxesStageController.lvlib"/>
 			<Item Name="StepMotorController.lvlib" Type="Library" URL="../ViewController/StepMotorController/StepMotorController.lvlib"/>
 			<Item Name="QPDController.lvlib" Type="Library" URL="../ViewController/QPDController/QPDController.lvlib"/>
 			<Item Name="OxxiusLaserController.lvlib" Type="Library" URL="../ViewController/OxxiusLaserController/OxxiusLaserController.lvlib"/>
@@ -162,6 +169,7 @@
 			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Laser_Oxxius/Laser_Oxxius/Dependency/Oxxius_Boxx.dll"/>
 			<Item Name="Madlib.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLab/Stage_MadCityLab/Dependency/Madlib.dll"/>
 			<Item Name="MicroDrive.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro/Dependency/MicroDrive.dll"/>
+			<Item Name="QuickNote.lvclass" Type="LVClass" URL="../QuickNote/QuickNote/QuickNote.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RM21" Type="EXE">
