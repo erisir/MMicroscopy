@@ -41,6 +41,7 @@
 				</Item>
 				<Item Name="Messages for DataGenerator" Type="Folder">
 					<Item Name="AddDataListener Msg.lvclass" Type="LVClass" URL="../Interface/DataGenerator Messages/AddDataListener Msg/AddDataListener Msg.lvclass"/>
+					<Item Name="BroadcastData Msg.lvclass" Type="LVClass" URL="../Interface/DataGenerator Messages/BroadcastData Msg/BroadcastData Msg.lvclass"/>
 				</Item>
 				<Item Name="DockStation.lvclass" Type="LVClass" URL="../Interface/DockStation/DockStation.lvclass"/>
 				<Item Name="DataListener.lvclass" Type="LVClass" URL="../Interface/DataListener/DataListener.lvclass"/>
