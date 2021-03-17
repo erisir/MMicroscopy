@@ -26,9 +26,6 @@
 				</Item>
 				<Item Name="Messages for DockStation" Type="Folder">
 					<Item Name="InsertDevicePanel Msg.lvclass" Type="LVClass" URL="../Interface/DockStation Messages/InsertDevicePanel Msg/InsertDevicePanel Msg.lvclass"/>
-					<Item Name="SetPiplelineImageBuffer Msg.lvclass" Type="LVClass" URL="../Interface/DockStation Messages/SetPiplelineImageBuffer Msg/SetPiplelineImageBuffer Msg.lvclass"/>
-					<Item Name="StartImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/DockStation Messages/StartImageAcquisition Msg/StartImageAcquisition Msg.lvclass"/>
-					<Item Name="StopImageAcquisition Msg.lvclass" Type="LVClass" URL="../Interface/DockStation Messages/StopImageAcquisition Msg/StopImageAcquisition Msg.lvclass"/>
 				</Item>
 				<Item Name="Messages for ErrorHandler" Type="Folder">
 					<Item Name="ParseError Msg.lvclass" Type="LVClass" URL="../Interface/ErrorHandler Messages/ParseError Msg/ParseError Msg.lvclass"/>
