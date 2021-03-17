@@ -7,5 +7,5 @@
 		<Item Name="StartLogging Msg.lvclass" Type="LVClass" URL="../DataLogger Messages/StartLogging Msg/StartLogging Msg.lvclass"/>
 	</Item>
 	<Item Name="DataLogger.lvclass" Type="LVClass" URL="../DataLogger/DataLogger.lvclass"/>
-	<Item Name="DataLoggerUI.lvclass" Type="LVClass" URL="../../../../DataLoggerUI/DataLoggerUI.lvclass"/>
+	<Item Name="DataLoggerUI.lvlib" Type="Library" URL="../../../../DataLoggerUI/DataLoggerUI.lvlib"/>
 </Library>
