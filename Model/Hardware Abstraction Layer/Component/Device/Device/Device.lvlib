@@ -5,11 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="StartSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../Device Messages/StartSequenceAcquisition Msg/StartSequenceAcquisition Msg.lvclass"/>
-		<Item Name="StopAcquisition Msg.lvclass" Type="LVClass" URL="../Device Messages/StopAcquisition Msg/StopAcquisition Msg.lvclass"/>
-		<Item Name="SetSamplingRate Msg.lvclass" Type="LVClass" URL="../Device Messages/SetSamplingRate Msg/SetSamplingRate Msg.lvclass"/>
-		<Item Name="AcqLoop Msg.lvclass" Type="LVClass" URL="../Device Messages/AcqLoop Msg/AcqLoop Msg.lvclass"/>
+		<Item Name="StartSequenceAcquisition Msg.lvclass" Type="LVClass" URL="../../Device Messages/StartSequenceAcquisition Msg/StartSequenceAcquisition Msg.lvclass"/>
+		<Item Name="StopAcquisition Msg.lvclass" Type="LVClass" URL="../../Device Messages/StopAcquisition Msg/StopAcquisition Msg.lvclass"/>
+		<Item Name="SetSamplingRate Msg.lvclass" Type="LVClass" URL="../../Device Messages/SetSamplingRate Msg/SetSamplingRate Msg.lvclass"/>
+		<Item Name="AcqLoop Msg.lvclass" Type="LVClass" URL="../../Device Messages/AcqLoop Msg/AcqLoop Msg.lvclass"/>
 	</Item>
-	<Item Name="DeviceStatus.ctl" Type="VI" URL="../Device/DeviceStatus.ctl"/>
-	<Item Name="Device.lvclass" Type="LVClass" URL="../Device/Device.lvclass"/>
+	<Item Name="DeviceStatus.ctl" Type="VI" URL="../DeviceStatus.ctl"/>
+	<Item Name="Device.lvclass" Type="LVClass" URL="../Device.lvclass"/>
 </Library>

@@ -5,4 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder"/>
 	<Item Name="DataLogger.lvclass" Type="LVClass" URL="../DataLogger/DataLogger.lvclass"/>
+	<Item Name="DataLoggerUI.lvclass" Type="LVClass" URL="../../../../DataLoggerUI/DataLoggerUI.lvclass"/>
 </Library>

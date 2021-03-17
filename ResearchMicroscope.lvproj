@@ -42,6 +42,8 @@
 				<Item Name="Messages for DataGenerator" Type="Folder">
 					<Item Name="AddDataListener Msg.lvclass" Type="LVClass" URL="../Interface/DataGenerator Messages/AddDataListener Msg/AddDataListener Msg.lvclass"/>
 					<Item Name="BroadcastData Msg.lvclass" Type="LVClass" URL="../Interface/DataGenerator Messages/BroadcastData Msg/BroadcastData Msg.lvclass"/>
+					<Item Name="GenerateData Msg.lvclass" Type="LVClass" URL="../Interface/DataGenerator Messages/GenerateData Msg/GenerateData Msg.lvclass"/>
+					<Item Name="P2PSendData Msg.lvclass" Type="LVClass" URL="../Interface/DataGenerator Messages/P2PSendData Msg/P2PSendData Msg.lvclass"/>
 				</Item>
 				<Item Name="DockStation.lvclass" Type="LVClass" URL="../Interface/DockStation/DockStation.lvclass"/>
 				<Item Name="DataListener.lvclass" Type="LVClass" URL="../Interface/DataListener/DataListener.lvclass"/>
@@ -52,7 +54,7 @@
 			</Item>
 			<Item Name="Hardware Abstraction Layer" Type="Folder">
 				<Item Name="Component" Type="Folder">
-					<Item Name="Device.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Device/Device.lvlib"/>
+					<Item Name="Device.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Device/Device/Device.lvlib"/>
 					<Item Name="Camera.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Camera/Camera.lvlib"/>
 					<Item Name="Laser.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Laser/Laser.lvlib"/>
 					<Item Name="Stage.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Stage/Stage.lvlib"/>
@@ -96,6 +98,7 @@
 		<Item Name="UnitTest" Type="Folder">
 			<Item Name="Unit_Test.vi" Type="VI" URL="../UnitTest/Unit_Test.vi"/>
 		</Item>
+		<Item Name="DataLoggerUI.lvlib" Type="Library" URL="../DataLoggerUI/DataLoggerUI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
