@@ -9,6 +9,7 @@
 		<Item Name="StopAcquisition Msg.lvclass" Type="LVClass" URL="../../Device Messages/StopAcquisition Msg/StopAcquisition Msg.lvclass"/>
 		<Item Name="SetSamplingRate Msg.lvclass" Type="LVClass" URL="../../Device Messages/SetSamplingRate Msg/SetSamplingRate Msg.lvclass"/>
 		<Item Name="AcqLoop Msg.lvclass" Type="LVClass" URL="../../Device Messages/AcqLoop Msg/AcqLoop Msg.lvclass"/>
+		<Item Name="SaveConfigFile Msg.lvclass" Type="LVClass" URL="../../Device Messages/SaveConfigFile Msg/SaveConfigFile Msg.lvclass"/>
 	</Item>
 	<Item Name="DeviceStatus.ctl" Type="VI" URL="../DeviceStatus.ctl"/>
 	<Item Name="Device.lvclass" Type="LVClass" URL="../Device.lvclass"/>
