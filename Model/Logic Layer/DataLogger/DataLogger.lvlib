@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="StartLogging Msg.lvclass" Type="LVClass" URL="../DataLogger Messages/StartLogging Msg/StartLogging Msg.lvclass"/>
+		<Item Name="StopLogging Msg.lvclass" Type="LVClass" URL="../DataLogger Messages/StopLogging Msg/StopLogging Msg.lvclass"/>
 	</Item>
 	<Item Name="DataLogger.lvclass" Type="LVClass" URL="../DataLogger/DataLogger.lvclass"/>
 	<Item Name="DataLoggerUI.lvlib" Type="Library" URL="../../../../DataLoggerUI/DataLoggerUI.lvlib"/>
