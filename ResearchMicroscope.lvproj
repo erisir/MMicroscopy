@@ -51,6 +51,7 @@
 			</Item>
 			<Item Name="Hardware Abstraction Layer" Type="Folder">
 				<Item Name="Component" Type="Folder">
+					<Item Name="GRMActor.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/GRMActor/GRMActor.lvlib"/>
 					<Item Name="Device.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Device/Device/Device.lvlib"/>
 					<Item Name="Camera.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Camera/Camera.lvlib"/>
 					<Item Name="Laser.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Laser/Laser.lvlib"/>
@@ -81,7 +82,6 @@
 				<Item Name="QuickNote.lvlib" Type="Library" URL="../Model/Logic Layer/QuickNote/QuickNote.lvlib"/>
 				<Item Name="DataLogger.lvlib" Type="Library" URL="../Model/Logic Layer/DataLogger/DataLogger.lvlib"/>
 			</Item>
-			<Item Name="GRMActor.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/GRMActor/GRMActor.lvlib"/>
 		</Item>
 		<Item Name="ViewController" Type="Folder">
 			<Item Name="Controller Template.lvlib" Type="Library" URL="../ViewController/_Controller Template/Controller Template.lvlib"/>
@@ -178,7 +178,6 @@
 			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Laser_Oxxius/Laser_Oxxius/Dependency/Oxxius_Boxx.dll"/>
 			<Item Name="Madlib.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLab/Stage_MadCityLab/Dependency/Madlib.dll"/>
 			<Item Name="MicroDrive.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro/Dependency/MicroDrive.dll"/>
-			<Item Name="DataProcessor.lvlib" Type="Library" URL="../Model/Logic Layer/DataProcessor/DataProcessor.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RM21" Type="EXE">
