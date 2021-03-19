@@ -6,7 +6,7 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="PostUserInterfaceRefnum.vi" Type="VI" URL="../PostUserInterfaceRefnum.vi">
+	<Item Name="PostControlPanelRefnum.vi" Type="VI" URL="../PostControlPanelRefnum.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;52P9WNJ&lt;G&gt;%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!22'^D;WFO:U2F&gt;GFD:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!91(!!#!!!!!)!!!IA6EEA5G6G&lt;H6N!!!/1$$`````"6"B&lt;G6M!$*!=!!?!!!8&amp;52P9WNJ&lt;G&gt;%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!12'^D;WFO:U2F&gt;GFD:3"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!##!!!!*!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>

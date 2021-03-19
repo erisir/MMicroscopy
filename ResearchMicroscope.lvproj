@@ -34,7 +34,7 @@
 					<Item Name="SetStagePosition Msg.lvclass" Type="LVClass" URL="../Interface/StageController Messages/SetStagePosition Msg/SetStagePosition Msg.lvclass"/>
 				</Item>
 				<Item Name="Messages for DockingDevice" Type="Folder">
-					<Item Name="PostUserInterfaceRefnum Msg.lvclass" Type="LVClass" URL="../Interface/DockingDevice Messages/PostUserInterfaceRefnum Msg/PostUserInterfaceRefnum Msg.lvclass"/>
+					<Item Name="PostControlPanelRefnum Msg.lvclass" Type="LVClass" URL="../Interface/DockingDevice Messages/PostControlPanelRefnum Msg/PostControlPanelRefnum Msg.lvclass"/>
 				</Item>
 				<Item Name="Messages for DataGenerator" Type="Folder">
 					<Item Name="AddDataListener Msg.lvclass" Type="LVClass" URL="../Interface/DataGenerator Messages/AddDataListener Msg/AddDataListener Msg.lvclass"/>
@@ -51,7 +51,7 @@
 			</Item>
 			<Item Name="Hardware Abstraction Layer" Type="Folder">
 				<Item Name="Component" Type="Folder">
-					<Item Name="GRMActor.lvlib" Type="Library" URL="../GRMActor/GRMActor.lvlib"/>
+					<Item Name="GRMActor.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/GRMActor/GRMActor.lvlib"/>
 					<Item Name="Device.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Device/Device/Device.lvlib"/>
 					<Item Name="Camera.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Camera/Camera.lvlib"/>
 					<Item Name="Laser.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Laser/Laser.lvlib"/>
