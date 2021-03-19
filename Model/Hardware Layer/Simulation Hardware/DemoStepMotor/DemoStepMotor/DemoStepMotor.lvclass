@@ -53,14 +53,14 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1351098896</Property>
 	</Item>
-	<Item Name="LoadController.vi" Type="VI" URL="../LoadController.vi">
+	<Item Name="LoadControlPanel.vi" Type="VI" URL="../LoadControlPanel.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!L%U2F&lt;7^4&gt;'6Q47^U&lt;X)O&lt;(:M;7)62'6N&lt;V.U:8".&lt;X2P=CZM&gt;G.M98.T!"&amp;%:7VP5X2F=%VP&gt;'^S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!F&amp;5&amp;D&gt;'^S)%:S97VF&gt;W^S;SZM&gt;GRJ9AV"9X2P=CZM&gt;G.M98.T!!B"9X2P=C"*&lt;A!!2E"Q!"Y!!#M42'6N&lt;V.U:8".&lt;X2P=CZM&gt;GRJ9B6%:7VP5X2F=%VP&gt;'^S,GRW9WRB=X-!%%2F&lt;7^4&gt;'6Q47^U&lt;X)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#3!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1351098896</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="SetRelativePositionUm.vi" Type="VI" URL="../SetRelativePositionUm.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!L%U2F&lt;7^4&gt;'6Q47^U&lt;X)O&lt;(:M;7)62'6N&lt;V.U:8".&lt;X2P=CZM&gt;G.M98.T!"&amp;%:7VP5X2F=%VP&gt;'^S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"6!#A!/5G6M982J&gt;G6.&lt;X:F&gt;7U!!"2!-0````],5X2B:W5A4'&amp;C:7Q!2E"Q!"Y!!#M42'6N&lt;V.U:8".&lt;X2P=CZM&gt;GRJ9B6%:7VP5X2F=%VP&gt;'^S,GRW9WRB=X-!%%2F&lt;7^4&gt;'6Q47^U&lt;X)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!AA!!!#3!!!!!!%!#A!!!!!</Property>
