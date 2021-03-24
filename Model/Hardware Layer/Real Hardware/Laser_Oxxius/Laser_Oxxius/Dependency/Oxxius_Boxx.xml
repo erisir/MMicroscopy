@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Oxxius_Boxx</name>
+    </assembly>
+    <members>
+        <member name="T:Oxxius_Boxx.LaserBoxx">
+            <summary>
+            This class is used to control a specific laser.
+            <see cref="M:Oxxius_Boxx.LaserBoxx.Send(System.String)">Example</see>
+            </summary>
+        </member>
+        <member name="M:Oxxius_Boxx.LaserBoxx.#ctor(LibUsbDotNet.Main.UsbRegistry,System.String)">
+            <summary>
+            Constructor (used by the <see cref="T:Oxxius_Boxx.Lasers">Lasers class</see>).
+            </summary>
+            <param name="B">USB registry.</param>
+            <param name="sn">Serial number.</param>
+        </member>
+        <member name="M:Oxxius_Boxx.LaserBoxx.#ctor(Oxxius_Boxx.LaserBoxx)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="B">LaserBoxx from the list of the <see cref="T:Oxxius_Boxx.Lasers">Lasers class</see>.</param>
+        </member>
+        <member name="M:Oxxius_Boxx.LaserBoxx.Open">
+            <summary>
+            Open the USB link with the laser.
+            <see cref="M:Oxxius_Boxx.LaserBoxx.Send(System.String)">Example</see>
+            </summary>
+            <returns>True: the link is open.</returns>
+        </member>
+        <member name="M:Oxxius_Boxx.LaserBoxx.Close">
+            <summary>
+            Close the USB link with the laser.
+            <see cref="M:Oxxius_Boxx.LaserBoxx.Send(System.String)">Example</see>
+            </summary>
+        </member>
+        <member name="M:Oxxius_Boxx.LaserBoxx.Send(System.String)">
+             <summary>
+             Send a command to the laser.
+             Complete list of commands is in the manual.
+             </summary>
+             <param name="command">Command to send to the laser.</param>
+             <returns>Answer from the laser.</returns>
+             <example>
+             <code>
+             using Oxxius_Boxx;
+             
+             // Get the lasers list
+             Lasers Lasers_list = new Lasers();
+            
+             // Create a laser objet
+             LaserBoxx laser1 = Lasers_list.List[0];
+            
+             // Open the laser link
+             laser1.Open();
+            
+             // Get the power set point
+             string power = laser1.Send("?sp");
+            
+             // Close the laser link
+             laser1.Close();
+             </code>
+             </example>
+        </member>
+        <member name="P:Oxxius_Boxx.LaserBoxx.IsOpen">
+            <summary>
+            Link status.
+            </summary>
+            <returns>True: the link is open.</returns>
+        </member>
+        <member name="P:Oxxius_Boxx.LaserBoxx.Serial">
+            <summary>
+            Laser serial number.
+            </summary>
+            <value>Example : "LAS-00001"</value>
+        </member>
+        <member name="T:Oxxius_Boxx.Lasers">
+            <summary>
+            This class provides a list of connected LaserBoxx.
+            </summary>
+        </member>
+        <member name="M:Oxxius_Boxx.Lasers.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Oxxius_Boxx.Lasers.StartScan">
+            <summary>
+            Start the device notifier.
+            </summary>
+            <example>
+            <code>
+            using Oxxius_Boxx;
+            
+            Lasers lasers_list = new Lasers();
+            lasers_list.LaserFound += onLasersArrival;
+            lasers_list.LaserRemoved += onLasersRemove;
+            lasers_list.StartScan();
+            </code>
+            <code>
+            void onLasersArrival(object sender, LaserNotifier e)
+            {
+               string laser_serial_number = e.Serial;
+               // put your code here
+            }</code>
+            </example>
+        </member>
+        <member name="M:Oxxius_Boxx.Lasers.index(System.String)">
+            <summary>
+            Find a LaserBoxx in the LaserBoxx array.
+            </summary>
+            <param name="Serial">LaserBoxx serial number.</param>
+            <returns>Array index of the LaserBoxx.
+            -1 if serial number not found.</returns>
+        </member>
+        <member name="M:Oxxius_Boxx.Lasers.onLaserFound(Oxxius_Boxx.LaserNotifier)">
+            <summary>
+            A LaserBoxx has been connected.
+            <see cref="M:Oxxius_Boxx.Lasers.StartScan">Example.</see>
+            </summary>
+            <param name="laser">Laser found.</param>
+        </member>
+        <member name="M:Oxxius_Boxx.Lasers.onLaserRemoved(Oxxius_Boxx.LaserNotifier)">
+            <summary>
+            A LaserBoxx has been disconnected.
+            <see cref="M:Oxxius_Boxx.Lasers.StartScan">Example</see>
+            </summary>
+            <param name="laser">Laser removed.</param>
+        </member>
+        <member name="P:Oxxius_Boxx.Lasers.Count">
+            <summary>
+            Number of LaserBoxxs connected.
+            </summary>
+            <value>Size of the LaserBoxxs list.</value>
+        </member>
+        <member name="P:Oxxius_Boxx.Lasers.List">
+            <summary>
+            Connected LaserBoxxs list.
+            </summary>
+            <value>Array of LaserBoxxs.</value>
+        </member>
+        <member name="E:Oxxius_Boxx.Lasers.LaserFound">
+            <summary>
+            Used to get Laserboxxs events.
+            <see cref="M:Oxxius_Boxx.Lasers.StartScan">Example</see>
+            </summary>
+        </member>
+        <member name="E:Oxxius_Boxx.Lasers.LaserRemoved">
+            <summary>
+            Used to get Laserboxxs events.
+            <see cref="M:Oxxius_Boxx.Lasers.StartScan">Example</see>
+            </summary>
+        </member>
+        <member name="T:Oxxius_Boxx.LaserNotifier">
+            <summary>
+            Used with Lasers class to get Laserboxxs events.
+            </summary>
+        </member>
+        <member name="M:Oxxius_Boxx.LaserNotifier.#ctor(System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="s">Serial number.</param>
+        </member>
+        <member name="P:Oxxius_Boxx.LaserNotifier.Serial">
+            <summary>
+            Laser serial number.
+            </summary>
+            <value>Example : "LAS-00001"</value>
+        </member>
+        <member name="T:Oxxius_Boxx.LaserFoundHandler">
+            <summary>
+            Used with Lasers class to get Laserboxxs events.
+            </summary>
+        </member>
+        <member name="T:Oxxius_Boxx.LaserRemovedHandler">
+            <summary>
+            Used with Lasers class to get Laserboxxs events.
+            </summary>
+        </member>
+    </members>
+</doc>
