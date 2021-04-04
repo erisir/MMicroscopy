@@ -51,7 +51,7 @@
 			</Item>
 			<Item Name="Hardware Abstraction Layer" Type="Folder">
 				<Item Name="Component" Type="Folder">
-					<Item Name="GRMActor.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/GRMActor/GRMActor.lvlib"/>
+					<Item Name="GenericActor.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/GRMActor/GenericActor.lvlib"/>
 					<Item Name="Device.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Device/Device/Device.lvlib"/>
 					<Item Name="Camera.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Camera/Camera.lvlib"/>
 					<Item Name="Laser.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Laser/Laser.lvlib"/>
