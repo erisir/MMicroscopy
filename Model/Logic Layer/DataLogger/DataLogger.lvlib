@@ -8,5 +8,5 @@
 		<Item Name="StopLogging Msg.lvclass" Type="LVClass" URL="../DataLogger Messages/StopLogging Msg/StopLogging Msg.lvclass"/>
 	</Item>
 	<Item Name="DataLogger.lvclass" Type="LVClass" URL="../DataLogger/DataLogger.lvclass"/>
-	<Item Name="DataLoggerUI.lvlib" Type="Library" URL="../../../DataLoggerUI/DataLoggerUI.lvlib"/>
+	<Item Name="DataLoggerUI.lvlib" Type="Library" URL="../../DataLoggerUI/DataLoggerUI.lvlib"/>
 </Library>

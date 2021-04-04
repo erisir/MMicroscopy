@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="SaveConfig Msg.lvclass" Type="LVClass" URL="../GRMActor Messages/SaveConfig Msg/SaveConfig Msg.lvclass"/>
+		<Item Name="SaveConfig Msg.lvclass" Type="LVClass" URL="../GenericActor Messages/SaveConfig Msg/SaveConfig Msg.lvclass"/>
 	</Item>
-	<Item Name="GenericActor.lvclass" Type="LVClass" URL="../GRMActor/GenericActor.lvclass"/>
+	<Item Name="GenericActor.lvclass" Type="LVClass" URL="../GenericActor/GenericActor.lvclass"/>
 </Library>
