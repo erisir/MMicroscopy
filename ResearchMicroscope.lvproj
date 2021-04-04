@@ -96,6 +96,7 @@
 			<Item Name="Unit_Test.vi" Type="VI" URL="../UnitTest/Unit_Test.vi"/>
 		</Item>
 		<Item Name="Control.ctl" Type="VI" URL="../Model/Logic Layer/DataLogger/DataLogger/Control.ctl"/>
+		<Item Name="Displayer.lvlib" Type="Library" URL="../Displayer/Displayer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -184,6 +185,7 @@
 			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Laser_Oxxius/Laser_Oxxius/Dependency/Oxxius_Boxx.dll"/>
 			<Item Name="Madlib.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLab/Stage_MadCityLab/Dependency/Madlib.dll"/>
 			<Item Name="MicroDrive.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro/Dependency/MicroDrive.dll"/>
+			<Item Name="Send PostUserInterfaceRefnum.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2020/project/Interface/DockingDevice Messages/PostUserInterfaceRefnum Msg/Send PostUserInterfaceRefnum.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RM21" Type="EXE">
