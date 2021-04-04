@@ -18,6 +18,7 @@
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Set Enable State On Multtple Controls.vi" Type="VI" URL="../Support/Set Enable State On Multtple Controls.vi"/>
+			<Item Name="Control.ctl" Type="VI" URL="../Model/Logic Layer/DataLogger/DataLogger/Control.ctl"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="Interface" Type="Folder">
@@ -79,6 +80,7 @@
 				</Item>
 			</Item>
 			<Item Name="Logic Layer" Type="Folder">
+				<Item Name="FlatField.lvlib" Type="Library" URL="../FlatField/FlatField.lvlib"/>
 				<Item Name="Displayer.lvlib" Type="Library" URL="../Displayer/Displayer.lvlib"/>
 				<Item Name="QuickNote.lvlib" Type="Library" URL="../Model/Logic Layer/QuickNote/QuickNote.lvlib"/>
 				<Item Name="DataLogger.lvlib" Type="Library" URL="../Model/Logic Layer/DataLogger/DataLogger.lvlib"/>
@@ -96,8 +98,6 @@
 		<Item Name="UnitTest" Type="Folder">
 			<Item Name="Unit_Test.vi" Type="VI" URL="../UnitTest/Unit_Test.vi"/>
 		</Item>
-		<Item Name="Control.ctl" Type="VI" URL="../Model/Logic Layer/DataLogger/DataLogger/Control.ctl"/>
-		<Item Name="FlatFieldUI.lvlib" Type="Library" URL="../FlatFieldUI/FlatFieldUI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -163,6 +163,15 @@
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
+				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="IMAQ Rounding Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rounding Mode.ctl"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
+				<Item Name="IMAQ Get Custom Keys" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Get Custom Keys"/>
+				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="Cast Image 2 Method.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/Cast Image 2 Method.ctl"/>
+				<Item Name="IMAQ Cast Image 2" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Cast Image 2"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
