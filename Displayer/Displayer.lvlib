@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="ImageMouseWheel Msg.lvclass" Type="LVClass" URL="../Displayer Messages/ImageMouseWheel Msg/ImageMouseWheel Msg.lvclass"/>
 		<Item Name="SetROI Msg.lvclass" Type="LVClass" URL="../Displayer Messages/SetROI Msg/SetROI Msg.lvclass"/>
 	</Item>
 	<Item Name="Displayer.lvclass" Type="LVClass" URL="../Displayer/Displayer.lvclass"/>
