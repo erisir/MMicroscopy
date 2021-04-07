@@ -19,8 +19,8 @@
 		<Item Name="Support" Type="Folder">
 			<Item Name="Set Enable State On Multtple Controls.vi" Type="VI" URL="../Support/Set Enable State On Multtple Controls.vi"/>
 			<Item Name="Control.ctl" Type="VI" URL="../Model/Logic Layer/DataLogger/DataLogger/Control.ctl"/>
-			<Item Name="IMAQReadMultiMetadata.vi" Type="VI" URL="/C/Users/dxn5173/Desktop/IMAQReadMultiMetadata.vi"/>
-			<Item Name="IMAQWriteMultiMetadata.vi" Type="VI" URL="/C/Users/dxn5173/Desktop/IMAQWriteMultiMetadata.vi"/>
+			<Item Name="IMAQWriteMultiMetadata.vi" Type="VI" URL="../Support/IMAQWriteMultiMetadata.vi"/>
+			<Item Name="IMAQReadMultiMetadata.vi" Type="VI" URL="../Support/IMAQReadMultiMetadata.vi"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="Interface" Type="Folder">
