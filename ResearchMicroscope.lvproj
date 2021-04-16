@@ -55,6 +55,7 @@
 			<Item Name="Hardware Layer" Type="Folder">
 				<Item Name="Demo" Type="Folder">
 					<Item Name="DemoStage.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoStage/DemoStage.lvlib"/>
+					<Item Name="DemoStepMotor.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoStepMotor/DemoStepMotor.lvlib"/>
 				</Item>
 			</Item>
 		</Item>
@@ -62,6 +63,7 @@
 			<Item Name="GenericController.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/GenericActor/GenericController.lvlib"/>
 			<Item Name="Controller Template.lvlib" Type="Library" URL="../ViewController/_Controller Template/Controller Template.lvlib"/>
 			<Item Name="StageController.lvlib" Type="Library" URL="../ViewController/TripleAxisStageController/StageController.lvlib"/>
+			<Item Name="StepMotorController.lvlib" Type="Library" URL="../ViewController/StepMotorController/StepMotorController.lvlib"/>
 		</Item>
 		<Item Name="UnitTest" Type="Folder">
 			<Item Name="Unit_Test.vi" Type="VI" URL="../UnitTest/Unit_Test.vi"/>
@@ -128,6 +130,7 @@
 				<Item Name="Sound Output Write (U8).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (U8).vi"/>
 				<Item Name="Sound Output Write (DBL Single).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (DBL Single).vi"/>
 				<Item Name="Sound Output Wait.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Wait.vi"/>
+				<Item Name="LVRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRangeTypeDef.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
