@@ -4,6 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder"/>
-	<Item Name="QuickNote.lvclass" Type="LVClass" URL="../QuickNote/QuickNote.lvclass"/>
 	<Item Name="QuickNoteUI.lvlib" Type="Library" URL="../../QuickNoteUI/QuickNoteUI.lvlib"/>
 </Library>
