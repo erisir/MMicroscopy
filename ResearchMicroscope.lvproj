@@ -49,21 +49,37 @@
 			<Item Name="Hardware Abstraction Layer" Type="Folder">
 				<Item Name="Component" Type="Folder">
 					<Item Name="Device.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Device/Device/Device.lvlib"/>
+					<Item Name="Camera.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Camera/Camera.lvlib"/>
 					<Item Name="Stage.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Stage/Stage.lvlib"/>
+					<Item Name="Laser.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/Laser/Laser.lvlib"/>
+					<Item Name="DAQ.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/DAQ/DAQ.lvlib"/>
 				</Item>
 			</Item>
 			<Item Name="Hardware Layer" Type="Folder">
 				<Item Name="Demo" Type="Folder">
+					<Item Name="DemoCamera.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoCamera/DemoCamera.lvlib"/>
 					<Item Name="DemoStage.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoStage/DemoStage.lvlib"/>
 					<Item Name="DemoStepMotor.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoStepMotor/DemoStepMotor.lvlib"/>
+					<Item Name="DemoLasers.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoLasers/DemoLasers.lvlib"/>
+					<Item Name="DemoDAQ.lvlib" Type="Library" URL="../Model/Hardware Layer/Simulation Hardware/DemoDAQ/DemoDAQ.lvlib"/>
+				</Item>
+				<Item Name="Real Hardware" Type="Folder">
+					<Item Name="Camera_Prime95B.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Camera_Prime95B/Camera_Prime95B.lvlib"/>
+					<Item Name="Stage_MadCityLab.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLab/Stage_MadCityLab.lvlib"/>
+					<Item Name="Stage_MadCityLabMicro.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro.lvlib"/>
+					<Item Name="Laser_Oxxius.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Laser_Oxxius/Laser_Oxxius.lvlib"/>
+					<Item Name="DAQ_QPD_Throlab.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/DAQ_QPT_Throlab/DAQ_QPD_Throlab.lvlib"/>
 				</Item>
 			</Item>
 		</Item>
 		<Item Name="ViewController" Type="Folder">
 			<Item Name="GenericController.lvlib" Type="Library" URL="../Model/Hardware Abstraction Layer/Component/GenericActor/GenericController.lvlib"/>
 			<Item Name="Controller Template.lvlib" Type="Library" URL="../ViewController/_Controller Template/Controller Template.lvlib"/>
+			<Item Name="CameraController.lvlib" Type="Library" URL="../ViewController/Prime95BCameraController/CameraController.lvlib"/>
 			<Item Name="StageController.lvlib" Type="Library" URL="../ViewController/TripleAxisStageController/StageController.lvlib"/>
 			<Item Name="StepMotorController.lvlib" Type="Library" URL="../ViewController/StepMotorController/StepMotorController.lvlib"/>
+			<Item Name="LaserController.lvlib" Type="Library" URL="../ViewController/OxxiusLaserController/LaserController.lvlib"/>
+			<Item Name="QPDController.lvlib" Type="Library" URL="../ViewController/QPDController/QPDController.lvlib"/>
 		</Item>
 		<Item Name="UnitTest" Type="Folder">
 			<Item Name="Unit_Test.vi" Type="VI" URL="../UnitTest/Unit_Test.vi"/>
@@ -131,6 +147,13 @@
 				<Item Name="Sound Output Write (DBL Single).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (DBL Single).vi"/>
 				<Item Name="Sound Output Wait.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Wait.vi"/>
 				<Item Name="LVRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRangeTypeDef.ctl"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="IMAQ Write Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Write Custom Data"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -141,6 +164,20 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="TIRF-Lock.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/DAQ_QPT_Throlab/DAQ_QPT_Throlab/Dependency/TIRF-Lock.dll"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="PVCamNET.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Camera_Prime95B/Camera_Prime95B/Dependencies/PVCamNET.dll"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Laser_Oxxius/Laser_Oxxius/Dependency/Oxxius_Boxx.dll"/>
+			<Item Name="Madlib.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLab/Stage_MadCityLab/Dependency/Madlib.dll"/>
+			<Item Name="MicroDrive.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro/Dependency/MicroDrive.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RM21" Type="EXE">
