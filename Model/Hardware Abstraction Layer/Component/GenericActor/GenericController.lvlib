@@ -6,5 +6,5 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="SaveConfig Msg.lvclass" Type="LVClass" URL="../GenericActor Messages/SaveConfig Msg/SaveConfig Msg.lvclass"/>
 	</Item>
-	<Item Name="GenericActor.lvclass" Type="LVClass" URL="../GenericActor/GenericActor.lvclass"/>
+	<Item Name="GenericController.lvclass" Type="LVClass" URL="../GenericActor/GenericController.lvclass"/>
 </Library>
