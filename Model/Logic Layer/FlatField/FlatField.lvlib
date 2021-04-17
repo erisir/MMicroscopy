@@ -4,5 +4,4 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder"/>
-	<Item Name="FlatFieldUI.lvlib" Type="Library" URL="../../FlatFieldUI/FlatFieldUI.lvlib"/>
 </Library>

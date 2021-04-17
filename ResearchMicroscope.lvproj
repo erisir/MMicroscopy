@@ -77,10 +77,10 @@
 				<Item Name="Microscope_RM21.lvlib" Type="Library" URL="../Model/Hardware Layer/Real Hardware/Microscope_RM21/Microscope_RM21.lvlib"/>
 			</Item>
 			<Item Name="Logic Layer" Type="Folder">
-				<Item Name="DataLogger.lvlib" Type="Library" URL="../Model/Logic Layer/DataLogger/DataLogger.lvlib"/>
-				<Item Name="Displayer.lvlib" Type="Library" URL="../Model/Logic Layer/Displayer/Displayer.lvlib"/>
-				<Item Name="FlatField.lvlib" Type="Library" URL="../Model/Logic Layer/FlatField/FlatField.lvlib"/>
-				<Item Name="QuickNote.lvlib" Type="Library" URL="../Model/Logic Layer/QuickNote/QuickNote.lvlib"/>
+				<Item Name="DisplayerUI.lvlib" Type="Library" URL="../Model/Logic Layer/DisplayerUI/DisplayerUI.lvlib"/>
+				<Item Name="FlatFieldUI.lvlib" Type="Library" URL="../Model/Logic Layer/FlatFieldUI/FlatFieldUI.lvlib"/>
+				<Item Name="QuickNoteUI.lvlib" Type="Library" URL="../Model/Logic Layer/QuickNoteUI/QuickNoteUI.lvlib"/>
+				<Item Name="DataLoggerUI.lvlib" Type="Library" URL="../Model/Logic Layer/DataLoggerUI/DataLoggerUI.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="ViewController" Type="Folder">
@@ -231,7 +231,6 @@
 			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Laser_Oxxius/Laser_Oxxius/Dependency/Oxxius_Boxx.dll"/>
 			<Item Name="Madlib.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLab/Stage_MadCityLab/Dependency/Madlib.dll"/>
 			<Item Name="MicroDrive.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro/Dependency/MicroDrive.dll"/>
-			<Item Name="DataLogger.lvlib" Type="Library" URL="../Model/Logic Layer/Model/Logic Layer/DataLogger/DataLogger.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RM21" Type="EXE">

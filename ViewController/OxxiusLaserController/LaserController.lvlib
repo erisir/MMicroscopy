@@ -4,4 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="LaserController.lvclass" Type="LVClass" URL="../LaserController.lvclass"/>
+	<Item Name="UpdateLaserStatus Msg.lvclass" Type="LVClass" URL="../../LaserController Messages/UpdateLaserStatus Msg/UpdateLaserStatus Msg.lvclass"/>
 </Library>
