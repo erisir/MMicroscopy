@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="InitializePIDParams Msg.lvclass" Type="LVClass" URL="../DAQ_QPD_Throlab Messages/InitializePIDParams Msg/InitializePIDParams Msg.lvclass"/>
 		<Item Name="Start TIRF Locked Msg.lvclass" Type="LVClass" URL="../DAQ_QPT_Throlab Messages/Start TIRF Locked Msg/Start TIRF Locked Msg.lvclass"/>
 	</Item>
 	<Item Name="DAQ_QPD_Throlab.lvclass" Type="LVClass" URL="../DAQ_QPT_Throlab/DAQ_QPD_Throlab.lvclass"/>
