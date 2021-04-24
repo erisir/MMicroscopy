@@ -17,23 +17,15 @@ The instrument is built on an optical table around a Mad City Labs RM21 platform
 
 [Quick Tutorial on AF by Tom McQuillan, An introduction to the Actor Oriented Design series]
 https://www.youtube.com/watch?v=2k3ZDwJolbA&list=PLmF-6jvwRvVNFzBjzh4bQDjFbv6lShcth
-
-![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image1.jpg?raw=true)
-![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image2.jpg?raw=true)
-![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image3.jpg?raw=true)
-
-a typical lifetime of a device and the calling sequence is shown bellow:
-
-![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image4.jpg?raw=true)
-
-the user interface or a typical controller.
-
-![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image5.jpg?raw=true)
-
-A microscope class, here we load all the other device as a nested actor, add controllers(UI) to the predefined subpanel
-
-![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image6.jpg?raw=true)
-
-
-
-
+Over view of the software:
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image01.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image02.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image03.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image04.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image05.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image06.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image07.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image08.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image09.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image10.jpg?raw=true)
+![alt text](https://github.com/erisir/MMicroscopyAF/blob/master/Images/image11.jpg?raw=true)
