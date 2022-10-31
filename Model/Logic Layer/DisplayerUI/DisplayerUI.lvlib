@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="LanchHistgramWin Msg.lvclass" Type="LVClass" URL="../../DisplayerUI Messages/LanchHistgramWin Msg/LanchHistgramWin Msg.lvclass"/>
 		<Item Name="PrepareAndSendSetROI Msg.lvclass" Type="LVClass" URL="../../DisplayerUI Messages/PrepareAndSendSetROI Msg/PrepareAndSendSetROI Msg.lvclass"/>
 	</Item>
 	<Item Name="DisplayerUI.lvclass" Type="LVClass" URL="../DisplayerUI.lvclass"/>
