@@ -234,7 +234,7 @@
 			<Item Name="MicroDrive.dll" Type="Document" URL="../Model/Hardware Layer/Real Hardware/Stage_MadCityLabMicro/Stage_MadCityLabMicro/Dependency/MicroDrive.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="RM21" Type="EXE">
+			<Item Name="RM21-HighGain" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{9F3CABCD-820B-484E-BE66-757B44E6688E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BF356AAE-54F4-40EA-A4CD-51090A77F3A3}</Property>
@@ -242,38 +242,39 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{509B6557-4653-47BD-B8A0-7834CA252278}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">RM21</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">RM21-HighGain for GFP</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RM21-HighGain</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/RM21-MMicrosope-Latest-Release</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/RM21-MMicrosope-Latest-Release/HighGainRM21</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7030990B-4FF4-4CC0-A014-48E50AB0DEEA}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">RM21.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/RM21-MMicrosope-Latest-Release/RM21.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">RM21-HighGain.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/RM21-MMicrosope-Latest-Release/HighGainRM21/RM21-HighGain.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/RM21-MMicrosope-Latest-Release/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/RM21-MMicrosope-Latest-Release/HighGainRM21/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{35B1E587-985A-42C8-8C04-698899467C49}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B8288DC8-0AF8-4310-9184-600037082933}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application/Launcher.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">RM21</Property>
-				<Property Name="TgtF_internalName" Type="Str">RM21</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">RM21-HighGain</Property>
+				<Property Name="TgtF_internalName" Type="Str">RM21-HighGain</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ? 2021 </Property>
-				<Property Name="TgtF_productName" Type="Str">RM21</Property>
+				<Property Name="TgtF_productName" Type="Str">RM21-HighGain</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{04896716-D0B1-4C09-95E4-1223A10F3276}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">RM21.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">RM21-HighGain.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
